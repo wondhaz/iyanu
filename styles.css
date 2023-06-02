@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 1em 6em;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.subscribe {
+    margin-top: 50px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+
+
+.allBlog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.allBlog .post {
+    width: 30em;
+    margin-bottom: 2em;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.allBlog .post img {
+    width: 100%;
+    height: auto;
+}
+
+.allBlog .post .details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+ .author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ .date {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+ .title {
+    margin-bottom: 10px;
+}
+
+ .description {
+    margin-bottom: 10px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+
+/* Add a class to identify the randomized tags */
+.randomized {
+    background-color: var(--random-color);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.left-post {
+    flex: 2;
+}
+
+.left-post .post {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.left-post .post img{
+    border-radius: 10px;
+    
+}
+
+
+
+
+.left-post .details{
+    text-align: left;
+}
+
+.right-posts {
+    display: flex;
+    /* flex-basis: 33.33%; */
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.right-posts .post {
+    display: flex;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-posts .post img {
+    width: 50%;
+    height: auto;
+}
+
+.right-posts .post .details {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 1em;
+}
